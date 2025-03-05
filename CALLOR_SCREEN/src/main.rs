@@ -2,12 +2,6 @@ use std::io;
 mod matrix;
 use matrix::Matrix;
 
-mod foo {
-    mod bar {
-        type MyType = (u8, u8);
-        fn baz() {}
-    }
-} 
 struct Display {
     // можете добавить сюда любые дополнительные поля
     matrix: Matrix,
